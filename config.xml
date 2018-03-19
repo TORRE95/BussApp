@@ -58,5 +58,15 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+	
+<plugin name="cordova-plugin-googlemaps" spec="^2.2.8">
+    <variable name="API_KEY_FOR_ANDROID" value="AIzaSyCuyMbdtLt_T5XYedMu_HWwTdjGTg6a0lk" />
+
+    <!-- these are optional settings -->
+    <variable name="PLAY_SERVICES_VERSION" value="11.8.0" />
+    <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.0" />
+    <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="(your custom message)" />
+    <variable name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="(your custom message)" />
+  </plugin>
 
 </widget>
