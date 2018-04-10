@@ -1,0 +1,40 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	height: 100%;
+	background: linear-gradient(to bottom, #004897, #001f3f, #00172f);
+}
+.contenedor{
+	width: 100%;
+	height: 100%;
+}
+
+#qrcode{
+	width: 100%;
+	height: 80%;
+	position: relative;
+}
+
+#qrcode > img{
+	position: relative;
+	width: 60%;
+	margin-left: 20%;
+	top: 30%;
+}
+
+.titulo{
+	width: 100%;
+	height: 20%;
+	position: relative;
+	color: white;
+}
+.titulo>h1{
+	width: 100%;
+	position: relative;
+	font-size: 70;
+	top: 50%;
+	text-align: center;
+}

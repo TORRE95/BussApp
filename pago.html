@@ -3,8 +3,8 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src="funciones.js"></script>
-	<link rel="stylesheet" type="text/css" href="estilosPago.css">
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilos/estilosPago.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
@@ -50,7 +50,7 @@
 			Código de Verificación <br>
 			<input type="number" name="cv" required  minlength="3" maxlength="3">
 		</label><br><br>
-		<input type="submit" name="agregar" value="Pagar">
+		<input type="button" name="agregar" value="Pagar" onclick="insertarHistorial()">
 	</form>
 </body>
 </html>
