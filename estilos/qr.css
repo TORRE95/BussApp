@@ -34,7 +34,7 @@ body{
 .titulo>h1{
 	width: 100%;
 	position: relative;
-	font-size: 70;
+	font-size: 70px;
 	top: 50%;
 	text-align: center;
 }
