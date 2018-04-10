@@ -5,7 +5,7 @@
 }
 body{
 	height: 100%;
-	background: linear-gradient(to bottom, #004897, #001f3f, #00172f);
+	background: linear-gradient(to bottom, #00172f, #004897, #004897);
 }
 .contenedor{
 	width: 100%;
